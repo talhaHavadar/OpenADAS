@@ -12,6 +12,11 @@ configure_file (
 include_directories(
   ${PROJECT_BINARY_DIR}
   ${PROJECT_SOURCE_DIR}/include
+  "/usr/local/include"
+)
+
+link_directories(
+  /usr/local/lib
 )
 
 subdirs(

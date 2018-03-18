@@ -12,10 +12,10 @@ int main() {
     utils.print("deneme");
     CameraConsumer* camera = CameraConsumerFactory::getCameraConsumer();
     camera->test();
-    VideoCapture cap(0);
     Mat src;
-    std::cout << "OpenCV:" << cap.read(src) << std::endl;
+    namedWindow("Display Image", WINDOW_AUTOSIZE );
     imshow("Talha", src);
+    waitKey(0);
 
 #ifdef env_simulation
     std::cout << "Simulation test" << std::endl;
