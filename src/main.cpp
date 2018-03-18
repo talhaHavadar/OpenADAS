@@ -13,6 +13,7 @@ int main() {
     CameraConsumer* camera = CameraConsumerFactory::getCameraConsumer();
     camera->test();
     Mat src;
+    src = imread("../data/photo.jpg");
     namedWindow("Display Image", WINDOW_AUTOSIZE );
     imshow("Talha", src);
     waitKey(0);
