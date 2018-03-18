@@ -1,6 +1,8 @@
 set(SOURCES
   main.cpp
   abstraction/StandardUtils.cpp
+  abstraction/CameraConsumerFactory.cpp
+  abstraction/SimulationCameraConsumer.cpp
 )
 
 add_executable(OpenADAS ${SOURCES})
