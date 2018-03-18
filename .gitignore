@@ -1,5 +1,6 @@
 .DS_Store
 .Python
+.vscode/
 [Bb]in
 [Ii]nclude
 [Ll]ib
